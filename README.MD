@@ -1,9 +1,8 @@
-# start
-## git init
-## npm init -y
-## npm install nightwatch --save-dev
-## npm install chromedriver --save-dev
-## npm install geckodriver --save-dev
+## start
+### git init
+### npm init -y
+### npm i nightwatch geckodriver chromedriver --save-dev
+### npm test - command will generate default nightwatch.conf.js file
 
 # install without proxy
 ## npm --without-ssl --insecure --proxy http://user:pass@proxy-proxy.net:8080 install nightwatch --save-dev
