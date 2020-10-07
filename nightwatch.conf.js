@@ -8,7 +8,7 @@ module.exports = {
   src_folders: ['tests'],
 
   // See https://nightwatchjs.org/guide/working-with-page-objects/
-  page_objects_path: '',
+  page_objects_path: 'pages',
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/#writing-custom-commands
   custom_commands_path:  '',
@@ -30,6 +30,7 @@ module.exports = {
   },
 
   test_settings: {
+   
     default: {
       disable_error_log: false,
       launch_url: 'https://phptravels.com/demo/',

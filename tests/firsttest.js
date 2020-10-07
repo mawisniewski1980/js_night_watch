@@ -4,6 +4,7 @@ module.exports = {
         .waitForElementVisible("body")
         .waitForElementVisible(".copyright")
         .assert.containsText("h4.main-title", "Demo Credentials for Frontend and Backend")
-        .end();
+        
+        browser.end();
     }
 }
