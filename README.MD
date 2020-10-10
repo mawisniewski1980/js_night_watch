@@ -9,6 +9,14 @@
 
 # run tests
 ## npm test
+## npm test -- --tag google
+## npm test -- --tag googleadv
+
+# debug
+## node --help
+## node --inspect-brk node_modules/.bin/nightwatch  - into package.js > npm run debug
+## npm run debug  -- --tag google
+## npm run debug  -- --tag googleadv
 
 # useful links
 #### https://stackoverflow.com/questions/38570209/making-global-npm-packages-available-to-all-users-on-windows-2012-server
